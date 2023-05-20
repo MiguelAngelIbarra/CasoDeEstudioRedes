@@ -14,4 +14,4 @@ Armar la topologia y empezar a hacer el subneteo de acuerdo a las especificacion
    - ¿Por que los asignamos a los host de las VLANs?
       - lo realizmaos asi ya que consideramos que hay muchos mas usuarios en produccion
       que en otras areas, por eso pusimos 450, la de sales para que 350 para que no tenga limitantes y los demas ya fueron asignados de manera que ocuparan menos
-      que los otros dos anteriores
+      que los otros dos anteriores.
