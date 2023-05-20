@@ -1,0 +1,17 @@
+19/05/2023
+Armar la topologia y empezar a hacer el subneteo de acuerdo a las especificaciones dada por el profesor.
+  - Descargamos el Radmin para poder tener conexion por VPN 
+  - Para los host requeridos fueron 2 
+    - para el bronch tomamos 2000
+    - y lo mismo para HQ 2000
+    Para asi tener VLANs:
+     * Production(450) 
+     * Sales(350) 
+     * Accounting(200) 
+     * HR(100)
+     * Management(50)
+     * Native
+   - ¿Por que los asignamos a los host de las VLANs?
+      - lo realizmaos asi ya que consideramos que hay muchos mas usuarios en produccion
+      que en otras areas, por eso pusimos 450, la de sales para que 350 para que no tenga limitantes y los demas ya fueron asignados de manera que ocuparan menos
+      que los otros dos anteriores
