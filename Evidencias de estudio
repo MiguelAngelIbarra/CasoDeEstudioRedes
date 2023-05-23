@@ -5,12 +5,12 @@ Armar la topologia y empezar a hacer el subneteo de acuerdo a las especificacion
     - para el bronch tomamos 8000
     - y lo mismo para HQ 8000
     Para asi tener VLANs:
-     * Production(450) 
-     * Sales(350) 
-     * Accounting(200) 
-     * HR(100)
-     * Management(50)
-     * Native
+     * Production(450) vlan 10
+     * Sales(350) vlan 20
+     * Accounting(200) vlan 30
+     * HR(100) vlan 40
+     * Management(50) vlan 99
+     * Native vlan 999
    - ¿Por que los asignamos a los host de las VLANs?
       - lo realizmaos asi ya que consideramos que hay muchos mas usuarios en produccion, asi para que el trafico de red este fluido, por eso pusimos 450, 
       la de sales para que 350 lo mismo, que el trafico sea mas fluido
